@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Minimal FPS Prototype</title>
+  <link rel="stylesheet" href="./src/style.css" />
+</head>
+
+<body>
+  <div id="app"></div>
+  <div id="ui-container">
+    <div id="health-display">Health: 100</div>
+    <div id="enemy-counter">Enemies Left: 10</div>
+  </div>
+  <div id="game-over-screen">
+    <h1 id="game-over-title">Game Over</h1>
+    <p>Click to Restart</p>
+  </div>
+  <div id="damage-overlay"></div>
+  <div id="crosshair"></div>
+  <div id="instructions">
+    <p>Click to start</p>
+    <p>WASD to Move, Mouse to Look, Click to Shoot</p>
+  </div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
